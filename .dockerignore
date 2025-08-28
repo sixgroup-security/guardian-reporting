@@ -1,0 +1,9 @@
+**/*.log
+**/.env*
+**/*.pyc
+**/.git
+**/.gitignore
+**/.DS_Store
+**/__pycache__
+**/*.bak
+**/*.bak2

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "guardian-reporting"
+version = "0.1.0"
+description = "This repository is responsible for creating reports for the Guardian project."
+authors = ["Lukas Reiter <chopicalqui@protonmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {version = "0.112.4", extras = ["standard"]}
+pydantic = "2.7.2"
+sqlmodel = "0.0.18"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "1.0.1"
+logger = "1.4"
+pypandoc = "^1.13"
+openpyxl = "^3.1.5"
+cvss = "^3.1"
+redis = "^5.1.1"
+pillow = "^10.4.0"
+pyasn1 = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

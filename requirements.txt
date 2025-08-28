@@ -1,0 +1,11 @@
+fastapi
+pydantic
+sqlmodel
+psycopg2-binary[asyncio]
+logger
+python-dotenv
+redis
+pypandoc
+pillow
+openpyxl
+cvss
